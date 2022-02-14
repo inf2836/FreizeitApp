@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="User data" >
+
+        <EditTextPreference
+            android:defaultValue="Tina Fomen"
+            android:key="et_pref_username"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Tina  Fomen"
+            android:title="Username"
+            app:dialogIcon="@drawable/ic_user"
+            app:icon="@drawable/ic_user" />
+        <EditTextPreference
+            android:defaultValue="tinafomen@gmail.com"
+            android:key="et_pref_email"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="tinafomen@gmail.com"
+            android:title="Email"
+            app:dialogIcon="@drawable/ic_email"
+            app:icon="@drawable/ic_email" />
+        <Preference
+            android:icon="@drawable/ic_cake"
+            android:key="pref_bday"
+            android:title="Birthday"
+            app:icon="@drawable/ic_cake"
+            app:summary="07.02.1998" />
+        <EditTextPreference
+            android:defaultValue="******"
+            android:key="et_pref_password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Password"
+            app:dialogIcon="@drawable/ic_password"
+            app:icon="@drawable/ic_password"
+            app:summary="*********" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reminder Options">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_alarm"
+            android:key="switch_preference_1"
+            android:title="Alarm Active"
+            app:icon="@drawable/ic_alarm" />
+        <MultiSelectListPreference
+            android:entries="@array/entities"
+            android:entryValues="@array/values"
+            android:key="multi_pref_1"
+            android:title="Select Days"
+            app:dialogIcon="@drawable/ic_check"
+            app:icon="@drawable/ic_check" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Other Settings">
+
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_notif"
+        android:key="check_box_preference_1"
+        android:title="Show Notifications"
+        app:icon="@drawable/ic_notif" />
+    <MultiSelectListPreference
+        android:entries="@array/prio"
+        android:entryValues="@array/prio"
+        android:icon="@drawable/ic_prio"
+        android:key="multi_select_list_preference_1"
+        android:title="Choose Prio"
+        app:dialogIcon="@drawable/ic_prio" />
+</PreferenceScreen>

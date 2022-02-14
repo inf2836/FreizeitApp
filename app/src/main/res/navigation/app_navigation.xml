@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="de.tinacode.freizeitapp.homeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="de.tinacode.freizeitapp.favoriteFragment"
+        android:label="favorite"
+        tools:layout="@layout/fragment_favorite"/>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="de.tinacode.freizeitapp.settingFragment"
+        android:label="setting"
+        tools:layout="@layout/fragment_setting"/>
+    <fragment
+        android:id="@+id/dayActivityFragment"
+        android:name="de.tinacode.freizeitapp.dayActivityFragment"
+        android:label="fragment_day_activity"
+        tools:layout="@layout/fragment_day" />
+    <fragment
+        android:id="@+id/nightActivityFragment"
+        android:name="de.tinacode.freizeitapp.nightActivityFragment"
+        android:label="fragment_night_activity"
+        tools:layout="@layout/fragment_night" />
+</navigation>

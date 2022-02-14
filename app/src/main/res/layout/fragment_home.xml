@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="homeFragment">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:textColor="#5E5E5E"/>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="8dp"
+                android:background="@drawable/bg_view"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp">
+
+            </View>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#5E5E5E"
+            android:text="this freetime for your discription"
+            android:fontFamily="@font/averia_gruesa_libre"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="@drawable/bg_view"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:src="@drawable/cloud"
+                            android:layout_alignParentRight="true"
+                            />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android User"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textColor="@color/white"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 C"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textSize="19dp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sun"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mon"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tue"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wed"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thu"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fri"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sat"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 C"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/averia_gruesa_libre"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Start new Activity"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:textSize="30dp"
+            android:textColor="#5E5E5E"
+            android:layout_margin="20dp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+                <Button
+                    android:id="@+id/w_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Walking"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/walking"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/b_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bowling"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/bowling"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/k_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Karaoke"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/karaoke"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/s_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Swimming"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/swimmer"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/ba_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Air Balloon"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="7dp"
+                        android:src="@drawable/ballon"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_height="120dp">
+
+                <Button
+                    android:id="@+id/r_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text=""/>
+
+                <RelativeLayout
+                    android:background="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Restaurant"
+                        android:fontFamily="@font/averia_gruesa_libre"
+                        android:textSize="19dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/restaurant"/>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

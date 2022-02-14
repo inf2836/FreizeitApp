@@ -1,0 +1,41 @@
+[
+  {
+    "placename": "Hallenbad Süd",
+    "adress": "Sportpark Südwest, Erich-Reimann-Straße 5, 67061 Ludwigshafen am Rhein",
+    "phonenumber": "0621 5042900",
+    "openingtime": "So. 10:00 - 19:00\nMo. 08:00 - 20:00",
+    "distance": "1,2 km"
+  },
+
+  {
+    "placename": "Freibad am Willersinnweiher",
+    "adress": "Strandweg 23, 67063 Ludwigshafen am Rhein",
+    "phonenumber": "0621 5042902",
+    "openingtime": "So. 10:00 - 19:00\nMo. 08:00 - 20:00",
+    "distance": "2,1 km"
+  },
+
+  {
+    "placename": "Hallenbad Oggersheim",
+    "adress": "Hermann-Hesse-Straße 11, 67071 Ludwigshafen am Rhein",
+    "phonenumber": "0621 5042901",
+    "openingtime": "So. 10:00 - 19:00\nMo. 08:00 - 20:00",
+    "distance": "2,2 km"
+  },
+
+  {
+    "placename": "blies-bad Ludwigshafen",
+    "adress": "Bliesstraße, 67059 Ludwigshafen am Rhein",
+    "phonenumber": "0621 5299155",
+    "openingtime": "So. 10:00 - 19:00\nMo. 08:00 - 20:00",
+    "distance": "2,4 km"
+  },
+
+  {
+    "placename": "Sunset Lia-Ra",
+    "adress": "Waldstraße 59, 67112 Ludwigshafen am Rhein",
+    "phonenumber": "0176 55383252",
+    "openingtime": "So. 10:00 - 19:00\nMo. 08:00 - 20:00",
+    "distance": ""
+  }
+]
