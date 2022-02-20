@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190782201176",
+    "project_id": "freizeitapp-7dfb9",
+    "storage_bucket": "freizeitapp-7dfb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190782201176:android:2df89ea3f1c0a7694c992d",
+        "android_client_info": {
+          "package_name": "de.tinacode.freizeitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190782201176-nto4v8hd10vvl548maks5kr75jtjp5nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf_HMzUlVSijAeHVvmjaa_uo0UoqdI6kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190782201176-nto4v8hd10vvl548maks5kr75jtjp5nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -13,4 +13,5 @@
     <string name="night">Night Activities</string>
     <string name="day_activities">Choose Your Day Activities</string>
     <string name="night_activities">Choose Your Night Activities</string>
+    <string name="Logout">Logout</string>
 </resources>
